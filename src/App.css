@@ -1,3 +1,24 @@
-/* 6. Write CSS rules that cause the header and .collage div to be centered on the page */
+body {
+    background-color: black;
+
+}
+
+header {
+    color: cadetblue;
+}
+
+header, .collage {
+    text-align: center;
+}
+
+.collage {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img {
+    flex: 1 0 21%;
+    margin: 5px;
+}
 
 /* 7. Write CSS rules that ensure that no more than 4 photos appear on a row */
