@@ -28,7 +28,7 @@ class App extends Component {
 				</header>
 				<div className="collage">
 					{}
-					{this.state.photos.map(photo => (
+					{photos.map(photo => (
 						<img
 							alt={photo.filename}
 							key={photo.id}
